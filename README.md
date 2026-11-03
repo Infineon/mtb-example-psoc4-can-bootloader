@@ -16,7 +16,7 @@ This example bundles two applications:
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-psoc4-can-bootloader)
 
-[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDI3OTMiLCJTcGVjIE51bWJlciI6IjAwMi00Mjc5MyIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IDQxMDBTIFBsdXM6IENBTiBib290bG9hZGVyIiwicmlkIjoic2lkZGhlc2gucmF1dEBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjEuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IkFVVE8iLCJEb2MgRmFtaWx5IjoiQVVUTyBQU09DIn0=)
+[Provide feedback on this code example.](https://yourvoice.infineon.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyNDI3OTMiLCJTcGVjIE51bWJlciI6IjAwMi00Mjc5MyIsIkRvYyBUaXRsZSI6IlBTT0MmdHJhZGU7IDQxMDBTIFBsdXM6IENBTiBib290bG9hZGVyIiwicmlkIjoic2lkZGhlc2gucmF1dEBpbmZpbmVvbi5jb20iLCJEb2MgdmVyc2lvbiI6IjEuMC4xIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IkFVVE8iLCJEb2MgRmFtaWx5IjoiQVVUTyBQU09DIn0=)
 
 
 ## Requirements
@@ -80,8 +80,7 @@ CY8CKIT-026 | J9[1] | J9[3] | J9[2] | GND | J1[7] (P4.VDD)
 
 See the [ModusToolbox&trade; tools package installation guide](https://www.infineon.com/ModusToolboxInstallguide) for information about installing and configuring the tools package.
 
-
-This example requires no additional software or tools.
+   **Note**: The public release of DFUHT does not include CAN 2.0 support. Please contact Infineon Support to request a DFUHT version with CAN 2.0 support
 
 
 ## Using the code example
@@ -449,6 +448,7 @@ Document title: *CE242793* – *PSOC&trade; 4100S Plus: CAN bootloader*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.0.1   | Fix RWX warning
 
 <br>
 
